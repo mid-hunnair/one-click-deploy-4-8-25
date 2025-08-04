@@ -1,0 +1,10 @@
+trigger:
+- master
+
+pool:
+  vmImage: 'ubuntu-latest'
+jobs:
+- job: job2
+  steps:
+  - script: echo Job2
+    displayName: 'Run a one-line script'
